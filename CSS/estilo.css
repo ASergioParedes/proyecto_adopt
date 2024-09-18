@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Jura', sans-serif;
-    min-width: 1200px;
     background-color: #02020A;
 }
 
@@ -56,10 +55,9 @@ p {
 }
 
 .navegacion-principal {
-    padding: 20px 20px 0 30px;
+    padding: 40px 20px 0 30px;
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
 }
 
 .logo img {
@@ -122,10 +120,93 @@ p {
     text-shadow: 0 4px 5px #ffffff;
 }
 
+.contenido-header h1 br {
+    display: none;
+}
+
 .contenido-header p {
     color: #ffffff;
     font-size: 1.8em;
     margin: 0 0 50px 60px;
+}
+
+
+/** Menu movil  min: 320px, max: 479px**/
+
+.menu-movil {
+    color: #ffffff;
+    font-size: 3em;
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .menu-movil {
+        display: block;
+    }
+    nav.barra {
+        display: none;
+    }
+    .contenido-header h1 {
+        font-size: 3.2em;
+        margin-left: 30px;
+    }
+    .contenido-header h1 br {
+        display: block;
+    }
+    .contenido-header p {
+        font-size: 1em;
+        margin-left: 30px;
+        margin-bottom: 100px;
+    }
+    .site-header {
+        width: 100vw;
+        background-position: center center;
+    }
+}
+
+
+/** Menu movil  min: 481x, max: 767px**/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .menu-movil {
+        display: block;
+        margin-right: 40px;
+    }
+    .navegacion-principal {
+        align-items: center;
+    }
+    nav.barra {
+        display: none;
+    }
+    .contenido-header h1 {
+        font-size: 3.8em;
+        margin-left: 40px;
+    }
+    .contenido-header h1 br {
+        display: block;
+    }
+    .contenido-header p {
+        font-size: 1.2em;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+    .site-header {
+        width: 100vw;
+        background-position: center center;
+    }
+}
+
+
+/** Menu movil  min: 768px, max: 1024px**/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav.barra a {
+        font-size: 1.3em;
+    }
+    .site-header {
+        width: 100vw;
+        background-position: center center;
+    }
 }
 
 
