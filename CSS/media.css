@@ -1,0 +1,146 @@
+/** Menu movil  min: 320px, max: 479px**/
+
+.menu-movil {
+    color: #ffffff;
+    font-size: 2em;
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .menu-movil {
+        display: block;
+        margin-top: 10px;
+    }
+    nav.barra {
+        display: none;
+    }
+    .contenido-header h1 {
+        font-size: 2.8em;
+        margin-left: 30px;
+    }
+    .contenido-header h1 br {
+        display: block;
+    }
+    .contenido-header p {
+        font-size: .9em;
+        margin-left: 30px;
+        margin-bottom: 100px;
+    }
+    .site-header {
+        background-position: center center;
+        height: 60vh;
+    }
+    main.index {
+        flex-direction: column;
+    }
+    .contenido-main h2 {
+        font-size: 1.8em;
+    }
+    .contenido-main p {
+        font-size: .9em;
+    }
+    .contenido-main a {
+        font-size: .7em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-main .button {
+        border-radius: 10px;
+    }
+    main.index img {
+        display: none;
+    }
+    main.index .querys {
+        display: block;
+        width: 100vw;
+    }
+}
+
+
+/** Menu movil  min: 481x, max: 767px**/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .menu-movil {
+        display: block;
+        margin-right: 40px;
+    }
+    .navegacion-principal {
+        align-items: center;
+    }
+    nav.barra {
+        display: none;
+    }
+    .contenido-header h1 {
+        font-size: 3.8em;
+        margin-left: 40px;
+    }
+    .contenido-header h1 br {
+        display: block;
+    }
+    .contenido-header p {
+        font-size: 1.2em;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+    .site-header {
+        width: 100vw;
+        height: 60vh;
+        background-position: center center;
+    }
+    main.index img {
+        display: none;
+    }
+    main.index {
+        flex-direction: column;
+    }
+    main.index .querys {
+        display: block;
+        width: 100vw;
+    }
+    .contenido-main h2 {
+        font-size: 2.1em;
+    }
+    .contenido-main p {
+        font-size: 1.2em;
+    }
+    .contenido-main a {
+        font-size: .9em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-main .button {
+        border-radius: 10px;
+    }
+}
+
+
+/** Menu movil  min: 768px, max: 1024px**/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav.barra a {
+        font-size: 1.3em;
+    }
+    .site-header {
+        width: 100vw;
+        height: 80vh;
+        background-position: center center;
+    }
+    main.index {
+        flex-direction: column;
+    }
+    main.index img {
+        display: none;
+    }
+    main.index .querys {
+        display: block;
+        height: 70vh;
+    }
+    .contenido-main a {
+        font-size: 1.4em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-main .button {
+        border-radius: 10px;
+    }
+}
