@@ -39,6 +39,11 @@ p {
     font-size: 1.2em;
     display: inline-block;
     border-radius: 20px;
+    transition: all .6s ease-in-out;
+}
+
+.button:hover {
+    background-color: #330e5d;
 }
 
 
@@ -104,6 +109,10 @@ p {
     transform-origin: bottom (left, right);
 }
 
+.barra i {
+    display: none;
+}
+
 .contenido-header {
     display: flex;
     flex-direction: column;
@@ -159,7 +168,7 @@ main.index {
     margin-top: 80px;
 }
 
-main.index .querys {
+.querys {
     display: none;
 }
 
@@ -169,5 +178,93 @@ main.index .querys {
 }
 
 .contenido-main div.boton {
+    text-align: center;
+}
+
+
+/** seccion caracteristicas **/
+
+.contenedor {
+    height: 100vh;
+}
+
+.contenedor h2 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.info-caracteristicas {
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    gap: 2em;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.car i {
+    font-size: 3.2em;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #11051F;
+    padding: 60px;
+    border-radius: 50%;
+}
+
+.car h3 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.car p {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+/** seccion nosotros **/
+
+.nosotros {
+    display: flex;
+    height: 100vh;
+}
+
+.contenido-nosotros {
+    color: #ffffff;
+    padding: 20px 40px;
+    order: 2;
+}
+
+.contenido-nosotros h2 {
+    font-size: 3.4em;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.contenido-nosotros p {
+    font-size: 1.8em;
+    text-align: justify;
+    line-height: 1.1;
+}
+
+.contenido-nosotros .button {
+    margin-top: 30px;
+    padding: 15px 25px;
+}
+
+.contenido-nosotros div.boton {
     text-align: center;
 }

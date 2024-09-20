@@ -11,8 +11,26 @@
         display: block;
         margin-top: 10px;
     }
-    nav.barra {
-        display: none;
+    .barra i {
+        display: inline;
+    }
+    .barra {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        align-items: end;
+        background-color: #11051F;
+        padding: 2.5em;
+        gap: 1em;
+        box-shadow: 0 0 0 100vmax rgba( 0, 0, 0, 0.5);
+    }
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
     }
     .contenido-header h1 {
         font-size: 2.8em;
@@ -54,6 +72,28 @@
         display: block;
         width: 100vw;
     }
+    /** seccion caracteristicas**/
+    .info-caracteristicas {
+        flex-direction: column;
+    }
+    .car {
+        padding: 0 20px;
+    }
+    .car h3 {
+        font-size: 1.5em;
+    }
+    .contenedor h2 {
+        font-size: 2em;
+    }
+    .iconos {
+        font-size: 2.2em;
+    }
+    .car p {
+        font-size: 1.2em;
+    }
+    .car p:last-of-type {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -64,11 +104,26 @@
         display: block;
         margin-right: 40px;
     }
-    .navegacion-principal {
-        align-items: center;
+    .barra i {
+        display: inline;
     }
-    nav.barra {
-        display: none;
+    .barra {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        align-items: end;
+        background-color: #11051F;
+        padding: 2.5em;
+        gap: 1em;
+        box-shadow: 0 0 0 100vmax rgba( 0, 0, 0, 0.5);
+    }
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
     }
     .contenido-header h1 {
         font-size: 3.8em;
@@ -111,6 +166,29 @@
     .contenido-main .button {
         border-radius: 10px;
     }
+    /** seccion caracteristicas**/
+    .info-caracteristicas {
+        flex-direction: column;
+    }
+    .car {
+        padding: 0 40px;
+    }
+    .car h3 {
+        font-size: 1.7em;
+    }
+    .contenedor h2 {
+        font-size: 2.4em;
+        margin-top: 40px;
+    }
+    .iconos {
+        font-size: 2.2em;
+    }
+    .car p {
+        font-size: 1.4em;
+    }
+    .car p:last-of-type {
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -142,5 +220,29 @@
     }
     .contenido-main .button {
         border-radius: 10px;
+    }
+    /** seccion caracteristicas**/
+    .caracteristicas {
+        align-items: center;
+        height: 60vh;
+    }
+    .car {
+        padding: 0 40px;
+    }
+    .car h3 {
+        font-size: 1.7em;
+    }
+    .contenedor h2 {
+        font-size: 2.4em;
+        margin-top: 40px;
+    }
+    .iconos {
+        font-size: 2.2em;
+    }
+    .car p {
+        font-size: 1.4em;
+    }
+    .car p:last-of-type {
+        margin-bottom: 30px;
     }
 }
