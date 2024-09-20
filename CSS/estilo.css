@@ -184,11 +184,13 @@ main.index {
 
 /** seccion caracteristicas **/
 
-.contenedor {
-    height: 100vh;
+@media (min-width: 769px) {
+    .caracteristicas {
+        height: 100vh;
+    }
 }
 
-.contenedor h2 {
+.caracteristicas h2 {
     color: #ffffff;
     font-size: 3em;
     text-align: center;
@@ -238,7 +240,12 @@ main.index {
 
 .nosotros {
     display: flex;
-    height: 100vh;
+}
+
+@media (min-width: 769px) {
+    .nosotros {
+        height: 100vh;
+    }
 }
 
 .contenido-nosotros {

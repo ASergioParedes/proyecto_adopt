@@ -48,6 +48,7 @@
         background-position: center center;
         height: 60vh;
     }
+    /** main**/
     main.index {
         flex-direction: column;
     }
@@ -75,6 +76,7 @@
     /** seccion caracteristicas**/
     .info-caracteristicas {
         flex-direction: column;
+        align-items: flex-end;
     }
     .car {
         padding: 0 20px;
@@ -82,7 +84,7 @@
     .car h3 {
         font-size: 1.5em;
     }
-    .contenedor h2 {
+    .caracteristicas h2 {
         font-size: 2em;
     }
     .iconos {
@@ -93,6 +95,31 @@
     }
     .car p:last-of-type {
         margin-bottom: 20px;
+    }
+    /** seccion nosotros**/
+    .nosotros {
+        flex-direction: column-reverse;
+    }
+    .nosotros img {
+        display: none;
+    }
+    .contenido-nosotros h2 {
+        font-size: 1.8em;
+    }
+    .contenido-nosotros p {
+        font-size: .9em;
+        display: block;
+    }
+    .nosotros .querys {
+        display: block;
+    }
+    .contenido-nosotros a {
+        font-size: .7em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-nosotros .button {
+        border-radius: 10px;
     }
 }
 
@@ -189,6 +216,30 @@
     .car p:last-of-type {
         margin-bottom: 30px;
     }
+    .nosotros img {
+        display: none;
+    }
+    .nosotros {
+        flex-direction: column-reverse;
+    }
+    .nosotros .querys {
+        display: block;
+        width: 100vw;
+    }
+    .contenido-nosotros h2 {
+        font-size: 2.1em;
+    }
+    .contenido-nosotros p {
+        font-size: 1.2em;
+    }
+    .contenido-nosotros a {
+        font-size: .9em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-nosotros .button {
+        border-radius: 10px;
+    }
 }
 
 
@@ -224,7 +275,7 @@
     /** seccion caracteristicas**/
     .caracteristicas {
         align-items: center;
-        height: 60vh;
+        height: 120vh;
     }
     .car {
         padding: 0 40px;
@@ -244,5 +295,23 @@
     }
     .car p:last-of-type {
         margin-bottom: 30px;
+    }
+    .nosotros {
+        flex-direction: column-reverse;
+    }
+    .nosotros img {
+        display: none;
+    }
+    .nosotros .querys {
+        display: block;
+        height: 70vh;
+    }
+    .nosotros a {
+        font-size: 1.4em;
+        padding: 10px 25px;
+        margin-top: 15px
+    }
+    .contenido-nosotros .button {
+        border-radius: 10px;
     }
 }
