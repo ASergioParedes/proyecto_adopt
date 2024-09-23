@@ -30,7 +30,7 @@ p {
 }
 
 .button {
-    background-color: #11051F;
+    background-color: #330e5d;
     padding: 20px 40px;
     color: #ffffff;
     text-decoration: none;
@@ -43,7 +43,7 @@ p {
 }
 
 .button:hover {
-    background-color: #330e5d;
+    background-color: #11051F;
 }
 
 
@@ -275,4 +275,139 @@ main.index {
 
 .contenido-nosotros div.boton {
     text-align: center;
+}
+
+
+/** seccion Planes **/
+
+@media (min-width: 768px) {
+    section.planes {
+        height: 100vh;
+        width: 100vw;
+        margin-top: 40px;
+    }
+}
+
+.planes h2 {
+    font-size: 2.6em;
+    color: #ffffff;
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+.contenido-planes {
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    background-color: #330e5d;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+}
+
+.contenido-planes .caracteristicas {
+    flex: 2 0 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contenido-planes .caracteristicas h3 {
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.contenido-planes .caracteristicas p {
+    padding-left: 30px;
+    font-size: 1.4em;
+}
+
+.contenido-planes .columnas {
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+
+.colum1 {
+    background-color: #11051F;
+    height: 98%;
+    width: 130px;
+    margin: auto 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.colum2 {
+    background-color: #11051F;
+    height: 98%;
+    width: 130px;
+    margin: auto 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.colum1 i,
+.colum2 i {
+    font-weight: 600;
+}
+
+
+/** footer **/
+
+.footer {
+    background-color: #11051F;
+    height: 200px;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .contenido-footer {
+    display: flex;
+    gap: 20px;
+}
+
+.contenido-footer .barra {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+.contenido-footer .barra a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contenido-footer .barra a:last-of-type {
+    margin-bottom: 0;
+}
+
+.contenido-footer .redes {
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.redes i {
+    font-size: 2.4em;
+    color: #ffffff;
+}
+
+.footer p {
+    background-color: #02020A;
+    padding: 15px;
+    font-size: 1.4em;
 }
