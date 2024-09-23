@@ -245,12 +245,13 @@ main.index {
 @media (min-width: 769px) {
     .nosotros {
         height: 100vh;
+        width: 100vw;
     }
 }
 
 .contenido-nosotros {
     color: #ffffff;
-    padding: 20px 40px;
+    padding: 20px;
     order: 2;
 }
 
