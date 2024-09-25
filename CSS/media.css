@@ -216,6 +216,9 @@
     }
     /**** PAGINAS INTERNAS  ****/
     /** producto **/
+    .contenido-header p br {
+        display: none;
+    }
     .contenido-funcion {
         width: 90%;
     }
