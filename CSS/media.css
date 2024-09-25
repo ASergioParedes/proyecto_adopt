@@ -647,4 +647,12 @@
         height: 98%;
         gap: 30px;
     }
+    /** PAGINAS INTERNAS ***/
+    /** subpagina producto **/
+    .contenido-funcion {
+        width: 80%;
+    }
+    .contenido-funcion h2 {
+        font-size: 3em;
+    }
 }
