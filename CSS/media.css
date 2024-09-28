@@ -228,6 +228,39 @@
     .contenido-funcion p {
         font-size: 1.2em;
     }
+    .objectivos {
+        flex-direction: column;
+    }
+    .objectivos h2 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .objectivos p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    .contenido1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido1 .icono {
+        font-size: 2em;
+        padding: 30px;
+    }
+    .contenido1 p {
+        font-size: 1.2em;
+    }
+    .contenido2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido2 .icono {
+        font-size: 2em;
+        padding: 30px;
+    }
+    .contenido2 p {
+        font-size: 1.2em;
+    }
 }
 
 
@@ -451,9 +484,42 @@
     .contenido-funcion p {
         font-size: 1.4em;
     }
+    .objectivos {
+        flex-direction: column;
+    }
+    .objectivos h2 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .objectivos p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    .contenido1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido1 .icono {
+        font-size: 2em;
+        padding: 30px;
+    }
+    .contenido1 p {
+        font-size: 1.2em;
+    }
+    .contenido2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido2 .icono {
+        font-size: 2em;
+        padding: 30px;
+    }
+    .contenido2 p {
+        font-size: 1.2em;
+    }
 }
 
-@media (min-width: 680px) {
+@media (min-width: 680px) and (max-width: 767px) {
     .contenido-planes .caracteristicas p {
         font-size: 1.4em;
     }
@@ -476,6 +542,39 @@
     }
     .contenido-funcion p {
         font-size: 1.5em;
+    }
+    .objectivos {
+        flex-direction: column;
+    }
+    .objectivos h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .objectivos p {
+        font-size: 1.4em;
+        text-align: justify;
+    }
+    .contenido1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido1 .icono {
+        font-size: 2.2em;
+        padding: 30px;
+    }
+    .contenido1 p {
+        font-size: 1.4em;
+    }
+    .contenido2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenido2 .icono {
+        font-size: 2.2em;
+        padding: 30px;
+    }
+    .contenido2 p {
+        font-size: 1.4em;
     }
 }
 
@@ -654,5 +753,26 @@
     }
     .contenido-funcion h2 {
         font-size: 3em;
+    }
+    .objectivos h2 {
+        font-size: 3.2em;
+    }
+    .objectivos p {
+        line-height: 1.5;
+        font-size: 2.4em;
+    }
+    .contenido1 .icono {
+        padding: 50px;
+        font-size: 3.8em;
+    }
+    .contenido1 p {
+        font-size: 2.4em;
+    }
+    .contenido2 .icono {
+        padding: 50px;
+        font-size: 3.8em;
+    }
+    .contenido2 p {
+        font-size: 2.4em;
     }
 }

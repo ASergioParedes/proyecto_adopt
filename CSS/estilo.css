@@ -463,3 +463,76 @@ main.index {
     text-align: end;
     justify-content: end;
 }
+
+.objectivos {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 50px;
+    height: 100vh;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.objectivos h2 {
+    font-size: 2.5em;
+}
+
+.objectivos p {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contenido-objectivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.contenido1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.contenido1 .icono {
+    font-size: 2.8em;
+    background-color: #11051F;
+    padding: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.contenido1 p {
+    font-size: 1.8em;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.contenido2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.contenido2 .icono {
+    font-size: 2.8em;
+    background-color: #11051F;
+    padding: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.contenido2 p {
+    font-size: 1.8em;
+    text-align: right;
+    padding-top: 20px;
+}
