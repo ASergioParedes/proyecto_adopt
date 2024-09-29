@@ -230,6 +230,7 @@
     }
     .objectivos {
         flex-direction: column;
+        margin-bottom: 30px;
     }
     .objectivos h2 {
         font-size: 1.6em;
@@ -260,6 +261,29 @@
     }
     .contenido2 p {
         font-size: 1.2em;
+    }
+    /**** Nosotros ****/
+    .main-nosotros {
+        flex-direction: column;
+        margin: 20px auto 0 auto;
+        width: 95%;
+    }
+    .contenido-main-nosotros .caja h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .contenido-main-nosotros .caja p {
+        font-size: 1.2em;
+        text-align: justify;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .main-nosotros img {
+        display: none;
+    }
+    .main-nosotros .querys {
+        display: block;
+        align-items: center;
     }
 }
 
@@ -517,6 +541,29 @@
     .contenido2 p {
         font-size: 1.2em;
     }
+    /**** Nosotros ****/
+    .main-nosotros {
+        flex-direction: column;
+        margin: 20px auto 0 auto;
+        width: 95%;
+    }
+    .contenido-main-nosotros .caja h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .contenido-main-nosotros .caja p {
+        font-size: 1.2em;
+        text-align: justify;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .main-nosotros img {
+        display: none;
+    }
+    .main-nosotros .querys {
+        display: block;
+        align-items: center;
+    }
 }
 
 @media (min-width: 680px) and (max-width: 767px) {
@@ -575,6 +622,29 @@
     }
     .contenido2 p {
         font-size: 1.4em;
+    }
+    /**** Nosotros ****/
+    .main-nosotros {
+        flex-direction: column;
+        margin: 20px auto 0 auto;
+        width: 95%;
+    }
+    .contenido-main-nosotros .caja h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .contenido-main-nosotros .caja p {
+        font-size: 1.2em;
+        text-align: justify;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .main-nosotros img {
+        display: none;
+    }
+    .main-nosotros .querys {
+        display: block;
+        align-items: center;
     }
 }
 
@@ -668,6 +738,30 @@
     }
     .contenido-funcion p {
         font-size: 1.6em;
+    }
+    /**** Nosotros ****/
+    .main-nosotros {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 95%;
+    }
+    .contenido-main-nosotros .caja h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .contenido-main-nosotros .caja p {
+        font-size: 1.4em;
+        text-align: justify;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .main-nosotros img {
+        display: none;
+    }
+    .main-nosotros .querys {
+        display: block;
+        align-items: center;
     }
 }
 
@@ -773,6 +867,12 @@
         font-size: 3.8em;
     }
     .contenido2 p {
+        font-size: 2.4em;
+    }
+    .contenido-main-nosotros .caja h2 {
+        font-size: 3.4em;
+    }
+    .contenido-main-nosotros .caja p {
         font-size: 2.4em;
     }
 }

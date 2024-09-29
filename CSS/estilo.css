@@ -536,3 +536,47 @@ main.index {
     text-align: right;
     padding-top: 20px;
 }
+
+
+/*** PAGINA NOSOTROS ***/
+
+.nosotros-header {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.nosotros-header h1 {
+    text-align: center;
+    text-shadow: none;
+    font-size: 3.2em;
+}
+
+.nosotros-header p {
+    text-align: center;
+}
+
+.main-nosotros {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    gap: 30px;
+}
+
+.contenido-main-nosotros {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.contenido-main-nosotros .caja h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contenido-main-nosotros p {
+    font-size: 1.8em;
+    text-align: left;
+    margin-right: 20px;
+}
